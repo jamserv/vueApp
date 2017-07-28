@@ -5,7 +5,7 @@
   "author": "jamsev@gmail.com <jamserv@gmail.com>",
   "private": false,
   "scripts": {
-    "start": "webpack-dev-server --open --hot",
+    "start": "webpack-dev-server",
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
