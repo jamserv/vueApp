@@ -60,13 +60,11 @@ export default {
     doSearch: function () {
       console.log('buscar...')
     },
-    getUsers: function() {
-	/*
+    getUsers: function() {	
        axios.get('https://jsonplaceholder.typicode.com/users')
             .then((response) => {
                 this.users = response.data;
             });
-*/
     }
   },
   computed: {
