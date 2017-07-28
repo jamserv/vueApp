@@ -3,7 +3,7 @@
     <ol class="breadcrumb">
       <li><a href="#">Home</a></li>
       <li><a href="#">{{msg}}</a></li>
-    </ol>
+    </ol>     
     <!--
     <p v-if="message">Original Message :: {{message}}</p>
     <p v-if="message">Reverse Message :: {{reversedMessage}}</p> -->
@@ -68,7 +68,7 @@ export default {
     }
   },
   computed: {
-    searchTbl: function () {      
+    searchTbl: function () {
       var self = this;
       return this.users.filter((user) => user.name.indexOf(self.search) !== -1 ||
             user.username.indexOf(self.search) !== -1 ||
