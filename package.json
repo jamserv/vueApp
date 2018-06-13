@@ -4,17 +4,14 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "build": "vue-cli-service build"
   },
   "dependencies": {
     "vue": "^2.5.16",
     "vue-router": "^3.0.1"
   },
   "devDependencies": {
-    "@vue/cli-plugin-eslint": "^3.0.0-beta.15",
     "@vue/cli-service": "^3.0.0-beta.15",
-    "@vue/eslint-config-standard": "^3.0.0-beta.16",
     "axios": "^0.18.0",
     "vue-cli-plugin-axios": "0.0.4",
     "vue-cli-plugin-bootstrap": "^1.0.0-alpha.0",
